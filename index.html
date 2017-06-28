@@ -2,18 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>GOOGLE SHOPPING</title>
   </head>
   <body>
+
+    <div class="container">
+        <div class="left-content">
+          <div class="left-divs">
     <h1>Shopping List</h1>
     <ul id="shopping-list">
     </ul>
-    <button>Add to cart</button>
-
-    <h2>My Cart</h2>
+    <button id="addIt">Add to cart</button>
+</div>
+ <div class="left-divs">
+    <h1>My Cart</h1>
     <ul id="cart-list">
       <!--<li>new listzzzz</li> -->
     </ul>
+  </div>
+       </div>
+
+<div class="right-content">
+
+  <h2>Search by Brand:</h2>
+  <input id= "searchBrandField" type="text" name="" value="">
+  <button id= "searchBrandButton" type="button" name="button">Search</button>
+
+
+  <h2>Search by Author:</h2>
+  <input id="searchAuthorField" type="text" name="" value="">
+  <button id= "searchAuthorButton" type="button" name="button">Search</button>
+</div>
+</div>
 
     <!-- <script src="js/dom-create.js" charset="utf-8"></script> -->
     <script src="js/dom-google-shopping.js" charset="utf-8"></script>
